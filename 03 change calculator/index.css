@@ -1,0 +1,88 @@
+body {
+    background: url(simpsons.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+#amountDue {
+    font-family: 'Righteous', cursive;
+    font-size: 25px;
+    text-align: center;
+}
+
+#amountPaid {
+    font-family: 'Righteous', cursive;
+    font-size: 25px;
+    text-align: center;
+}
+
+button {
+    font-family: 'Righteous', cursive;
+    width: 582px;
+    height: 200px;
+    background: url(monoply.jpg);
+    background-size: 100% 100%;
+    font-family: 'Righteous', cursive;
+    color: #fff;
+    opacity: .2;
+    font-size: 50px;
+}
+
+#returnAmount:hover {
+    color: red;
+    font-size: 60px;
+    opacity: 1.0;
+}
+
+#output {
+    font-family: 'Righteous', cursive;
+    font-size: 50px;
+}
+
+ul {
+    font-family: 'Righteous', cursive;
+    background-color: #FCFC47;
+    text-align: left;
+    list-style-type: none;
+    font-size: 50px;
+    color: #00cc00;
+    position: absolute;
+    top: 35%;
+    left: 42%;
+    opacity: .5;
+}
+
+ul:hover {
+    opacity: .95
+}
+
+li {
+    margin-bottom: 10px;
+    opacity: .5;
+}
+
+li:hover {
+    color: red;
+    transform: scale(1.5);
+    opacity: .99;
+}
+
+#output{
+	color: red;
+	opacity: .3;
+
+
+}
+
+#output:hover{
+	transform:  scale(1.25);
+	opacity: 1.0;
+
+}
+
+.grow {
+    transition: all .4s ease-in-out;
+}
+
+.grow:hover {
+    transform: scale(1.1);
+}
